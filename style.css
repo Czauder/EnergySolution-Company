@@ -31,7 +31,7 @@ header {
   font-weight: bold
 }
 
-a:hover {
+a.active {
   color: rgb(62, 168, 12)
 }
 
@@ -201,4 +201,54 @@ span.end {
   height: 80vh;
   justify-content: flex-start;
   margin-top: 20px
+}
+
+
+/* part news */
+
+
+.news {
+  border-top: 5px solid rgba(20, 101, 223);
+  background-color: rgb(247, 245, 245)
+}
+
+.news h1 {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 900;
+  padding-left: 50px;
+  color:
+    #00004F
+}
+
+.news h2 {
+  margin: auto 50px auto 50px;
+  padding-top: 5px;
+  font-size: 20px;
+  line-height: 40px;
+  color: #00004F
+}
+
+.news p {
+  margin: auto 50px auto 50px;
+  padding-top: 5px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.news img {
+  margin-left: 50px;
+}
+
+.actualNews {
+  margin: 30px;
+
+}
+
+.newsFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 40px;
+  padding-bottom: 45px;
 }

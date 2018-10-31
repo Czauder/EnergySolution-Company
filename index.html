@@ -9,19 +9,35 @@
   <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700i,900|Oswald:400,500,600|Roboto:400,500,700,900&amp;subset=latin-ext"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+    crossorigin="anonymous">
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <nav class="nav">
-    <ul class="nav-list">
-      <li> <a class="active" href="index.html">Home</a></li>
-      <li> <a href="news.html">News</a></li>
-      <li> <a href="index.html"> <img src="./photo/logo firmy.png" alt="logo company"></a>
-      <li> <a href="about.html">About</a></li>
-      <li> <a href="contact.html">Contact</a></li>
+  <nav class="navClassic">
+    <ul class="navList">
+      <li class="classic"> <a class="active" href="index.html">Home</a></li>
+      <li class="classic"> <a href="news.html">News</a></li>
+      <li class="classic"> <a href="index.html"> <img src="./photo/logo firmy.png" alt="logo company"></a>
+      <li class="classic"> <a href="about.html">About</a></li>
+      <li class="classic"> <a href="contact.html">Contact</a></li>
     </ul>
   </nav>
+  <div class="bars">
+    <i class="fas fa-bars"></i>
+  </div>
+  <nav class="navMobile on">
+    <ul class="navListMobile">
+      <li class="mob"> <a class="active" href="index.html">Home</a></li>
+      <li class="mob"> <a href="news.html">News</a></li>
+      <li class="mob"> <a href="about.html">About</a></li>
+      <li class="mob"> <a href="contact.html">Contact</a></li>
+      <li class="mob"> <a href="index.html"> <img src="./photo/logo firmy.png" alt="logo company"></a>
+    </ul>
+  </nav>
+
   <header>
     <section class="welcome">
       <div class="welcometxt">
@@ -72,6 +88,7 @@
     <p> &copy Created by BD-company 2018</p>
     <p><span class="end">be creative! be good!</span> </p>
   </footer>
+  <script src="main.js"></script>
 </body>
 
 </html>

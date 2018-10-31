@@ -533,12 +533,12 @@ button:hover {
   }
 
   .photoWork div {
-    width: 65vh;
-    height: 95vh;
+    width: 56vh;
+    height: 90vh;
   }
 
   .photoWork img {
-    width: 400px
+    width: 350px
   }
 
   footer {
@@ -561,7 +561,6 @@ button:hover {
   }
 
   /* part contact */
-
 
   button {
     width: 120px;
@@ -731,239 +730,470 @@ button:hover {
   input {
     width: 250px;
   }
+}
 
 
-  @media (max-width : 360px) {
-    .navMobile {
-      height: 210px;
-      transition: .2 linear;
-    }
 
-    li.mob {
-      padding: 5px;
-    }
-
-    a {
-      font-size: 20px;
-    }
-
-    .bars .fas {
-      font-size: 40px;
-      z-index: 2
-    }
-
-    .bars {
-      top: 10px;
-      right: 25px;
-    }
-
-    .bars.on {
-      top: 155px;
-      right: 25px;
-      padding-top: 5px;
-    }
-
-
-    li.mob:nth-child(5) {
-      padding-bottom: 13px;
-    }
-
-    li.mob img {
-      width: 120px;
-    }
-
-    /* II  */
-    .welcome {
-      width: 100%;
-      height: 80vh;
-    }
-
-    .welcometxt {
-      top: 10vh;
-      font-size: 32px;
-    }
-
-    .welcometxt p {
-      font-size: 22px;
-      margin: 10px 5px;
-    }
-
-    /* III */
-    .work {
-      height: 280vh
-    }
-
-
-    .work p {
-      font-size: 18px;
-    }
-
-    .work h1 {
-      font-size: 40px;
-      padding-left: 33px;
-    }
-
-    .work h2 {
-      font-size: 28px;
-    }
-
-
-    .photoWork div {
-      width: 90vw;
-      height: 80vh;
-      margin: 20px;
-    }
-
-    .photoWork img {
-      width: 280px;
-      padding-top: 8px;
-    }
-
-
-    /* part About  */
-    .about {
-      height: 60vh;
-      background-position: 38% 0%;
-    }
-
-    .aboutTxt {
-      top: 20vh;
-      font-size: 30px;
-    }
-
-    /* III */
-
-    .introduction h1 {
-      font-size: 38px;
-      padding-left: 10px;
-    }
-
-    .introduction p {
-      margin: auto 10px auto 10px;
-      padding-top: 5px;
-      font-size: 18px;
-    }
-
-
-    /* part news */
-
-
-    .news h1 {
-      font-size: 30px;
-      padding-left: 10px;
-    }
-
-    .news h2 {
-      margin: 0 5px;
-      font-size: 15px;
-    }
-
-    .news p {
-      margin: 0 5px;
-      padding-top: 5px;
-      font-size: 20px;
-      line-height: 38px;
-    }
-
-    .news img {
-      margin: 5px 5px;
-      width: 320px;
-      height: 200px;
-      ;
-    }
-
-    .actualNews {
-      margin: 15px;
-
-    }
-
-    .newsFlex {
-      padding-top: 15px;
-    }
-
-    /* part contact */
-
-
-    .contact {
-      height: 70vh;
-    }
-
-    .contactTxt {
-      position: absolute;
-      width: 100vw;
-      height: 100%;
-      padding: 20px 20px;
-      text-align: center;
-      top: 0;
-      left: 0;
-      font-size: 18px;
-      text-align: center;
-      color: white;
-      background-color: rgba(0, 0, 0, 65%);
-      text-shadow: 2px 2px 4px black
-    }
-
-    .fa-phone {
-      font-size: 30px;
-    }
-
-    .fa-at {
-      display: none;
-    }
-
-    .titleContact {
-      padding-top: 30px;
-      font-size: 38px;
-      padding-left: 10px;
-    }
-
-    .container {
-      flex-direction: column;
-      padding: 5px;
-    }
-
-    .socialMedia {
-      width: 100vw;
-      margin: 5px;
-    }
-
-    .socialMedia a {
-      font-size: 28px;
-    }
-
-    i {
-      font-size: 50px;
-    }
-
-    /* form */
-    aside {
-      padding-top: 30px;
-      margin: 5px;
-    }
-
-    .fastContact h2 {
-      font-size: 28px;
-
-    }
-
-    label {
-      font-size: 20px;
-      color: #00004F;
-    }
-
-    input {
-      width: 280px;
-      height: 40px;
-    }
-
-    button {
-      width: 80px;
-      height: 50px;
-      margin-top: 5px 30px 100px 10px;
-      color: #00004F;
-      text-transform: uppercase;
-      font-size: 27px;
-    }
+@media (max-width : 375px) {
+  .navMobile {
+    height: 210px;
+    transition: .2 linear;
   }
 
-  /* @media (min-width : 320px) and (max-width : 480px) {} */
+  li.mob {
+    padding: 5px;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  .bars .fas {
+    font-size: 40px;
+    z-index: 2
+  }
+
+  .bars {
+    top: 10px;
+    right: 25px;
+  }
+
+  .bars.on {
+    top: 155px;
+    right: 25px;
+    padding-top: 5px;
+  }
+
+
+  li.mob:nth-child(5) {
+    padding-bottom: 13px;
+  }
+
+  li.mob img {
+    width: 120px;
+  }
+
+  /* II  */
+  .welcome {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .welcometxt {
+    top: 10vh;
+    font-size: 32px;
+  }
+
+  .welcometxt p {
+    font-size: 22px;
+    margin: 10px 5px;
+  }
+
+  /* III */
+  .work {
+    height: 280vh
+  }
+
+
+  .work p {
+    font-size: 18px;
+  }
+
+  .work h1 {
+    font-size: 40px;
+    padding-left: 33px;
+  }
+
+  .work h2 {
+    font-size: 28px;
+  }
+
+
+  .photoWork div {
+    width: 90vw;
+    height: 80vh;
+    margin: 20px;
+  }
+
+  .photoWork img {
+    width: 280px;
+    padding-top: 8px;
+  }
+
+
+  /* part About  */
+  .about {
+    height: 60vh;
+    background-position: 38% 0%;
+  }
+
+  .aboutTxt {
+    top: 20vh;
+    font-size: 30px;
+  }
+
+  /* III */
+
+  .introduction h1 {
+    font-size: 38px;
+    padding-left: 10px;
+  }
+
+  .introduction p {
+    margin: auto 10px auto 10px;
+    padding-top: 5px;
+    font-size: 18px;
+  }
+
+
+  /* part news */
+
+
+  .news h1 {
+    font-size: 30px;
+    padding-left: 10px;
+  }
+
+  .news h2 {
+    margin: 0 5px;
+    font-size: 15px;
+  }
+
+  .news p {
+    margin: 0 5px;
+    padding-top: 5px;
+    font-size: 20px;
+    line-height: 38px;
+  }
+
+  .news img {
+    margin: 5px 5px;
+    width: 320px;
+    height: 200px;
+    ;
+  }
+
+  .actualNews {
+    margin: 15px;
+
+  }
+
+  .newsFlex {
+    padding-top: 15px;
+  }
+
+  /* part contact */
+
+
+  .contact {
+    height: 70vh;
+  }
+
+  .contactTxt {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    padding: 20px 20px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 65%);
+    text-shadow: 2px 2px 4px black
+  }
+
+  .fa-phone {
+    font-size: 30px;
+  }
+
+  .fa-at {
+    display: none;
+  }
+
+  .titleContact {
+    padding-top: 30px;
+    font-size: 38px;
+    padding-left: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .socialMedia {
+    width: 100vw;
+    margin: 5px;
+  }
+
+  .socialMedia a {
+    font-size: 28px;
+  }
+
+  i {
+    font-size: 50px;
+  }
+
+  /* form */
+  aside {
+    padding-top: 30px;
+    margin: 5px;
+  }
+
+  .fastContact h2 {
+    font-size: 28px;
+
+  }
+
+  label {
+    font-size: 20px;
+    color: #00004F;
+  }
+
+  input {
+    width: 280px;
+    height: 40px;
+  }
+
+  button {
+    width: 80px;
+    height: 50px;
+    margin-top: 5px 30px 100px 10px;
+    color: #00004F;
+    text-transform: uppercase;
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 738px) and (orientation: landscape) {
+  .navMobile {
+    height: 210px;
+    transition: .2 linear;
+  }
+
+  li.mob {
+    padding: 5px;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  .bars .fas {
+    font-size: 40px;
+    z-index: 2
+  }
+
+  .bars {
+    top: 10px;
+    right: 25px;
+  }
+
+  .bars.on {
+    top: 155px;
+    right: 25px;
+    padding-top: 5px;
+  }
+
+
+  li.mob:nth-child(5) {
+    padding-bottom: 13px;
+  }
+
+  li.mob img {
+    width: 120px;
+  }
+
+  /* II  */
+  .welcome {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .welcometxt {
+    top: 10vh;
+    font-size: 32px;
+  }
+
+  .welcometxt p {
+    font-size: 22px;
+    margin: 10px 5px;
+  }
+
+  /* III */
+  .work {
+    height: 450vh
+  }
+
+
+  .work p {
+    font-size: 18px;
+  }
+
+  .work h1 {
+    font-size: 40px;
+    padding-left: 33px;
+  }
+
+  .work h2 {
+    font-size: 28px;
+  }
+
+
+  .photoWork div {
+    width: 85vw;
+    height: 150vh;
+    margin: 20px;
+  }
+
+  .photoWork img {
+    width: 300px;
+    padding-top: 8px;
+  }
+
+
+  /* part About  */
+  .about {
+    height: 60vh;
+    background-position: 38% 0%;
+  }
+
+  .aboutTxt {
+    top: 20vh;
+    font-size: 30px;
+  }
+
+  /* III */
+
+  .introduction h1 {
+    font-size: 38px;
+    padding-left: 10px;
+  }
+
+  .introduction p {
+    margin: auto 10px auto 10px;
+    padding-top: 5px;
+    font-size: 18px;
+  }
+
+
+  /* part news */
+  .news h1 {
+    font-size: 30px;
+    padding-left: 10px;
+  }
+
+  .news h2 {
+    margin: 0 5px;
+    font-size: 15px;
+  }
+
+  .news p {
+    margin: 0 5px;
+    padding-top: 5px;
+    font-size: 20px;
+    line-height: 38px;
+  }
+
+  .news img {
+    margin: 5px 5px;
+    width: 320px;
+    height: 200px;
+    ;
+  }
+
+  .actualNews {
+    margin: 15px;
+
+  }
+
+  .newsFlex {
+    padding-top: 15px;
+  }
+
+  /* part contact */
+
+
+  .contact {
+    height: 70vh;
+  }
+
+  .contactTxt {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    padding: 20px 20px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 65%);
+    text-shadow: 2px 2px 4px black
+  }
+
+  .fa-phone {
+    font-size: 30px;
+  }
+
+  .fa-at {
+    display: none;
+  }
+
+  .titleContact {
+    padding-top: 30px;
+    font-size: 38px;
+    padding-left: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .socialMedia {
+    width: 100vw;
+    margin: 5px;
+  }
+
+  .socialMedia a {
+    font-size: 28px;
+  }
+
+  i {
+    font-size: 50px;
+  }
+
+  /* form */
+  aside {
+    padding-top: 30px;
+    margin: 5px;
+  }
+
+  .fastContact h2 {
+    font-size: 28px;
+
+  }
+
+  label {
+    font-size: 20px;
+    color: #00004F;
+  }
+
+  input {
+    width: 280px;
+    height: 40px;
+  }
+
+  button {
+    width: 80px;
+    height: 50px;
+    margin-top: 5px 30px 100px 10px;
+    color: #00004F;
+    text-transform: uppercase;
+    font-size: 27px;
+  }
+}

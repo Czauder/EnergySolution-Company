@@ -562,7 +562,6 @@ button:hover {
   }
 }
 
-/* mobile */
 @media (max-width : 768px) {
   .bars {
     display: block;
@@ -726,7 +725,8 @@ button:hover {
   }
 }
 
-@media (max-width : 480px) {
+/* mobile */
+@media (max-width : 414px) {
   .photoWork div {
     width: 90vw;
     height: 95vh;
@@ -963,6 +963,56 @@ button:hover {
     font-size: 27px;
   }
 }
+
+@media (max-width: 320px) {
+
+  /* II  */
+
+  .welcometxt {
+    top: 10vh;
+    font-size: 28px;
+  }
+
+  .welcometxt p {
+    font-size: 21px;
+    margin: 10px 5px;
+  }
+
+  /* III */
+  .work {
+    height: 300vh
+  }
+
+  .photoWork div {
+    width: 90vw;
+    height: 100vh;
+  }
+
+  .photoWork img {
+    width: 270px;
+    padding-top: 8px;
+  }
+
+
+
+  /* part news */
+
+  .news img {
+    width: 280px;
+  }
+
+  /* part contact */
+  .contact {
+    height: 80vh;
+  }
+
+  span.email {
+    font-size: 19px
+  }
+}
+
+
+
 
 @media (max-width: 738px) and (orientation: landscape) {
   .navMobile {

@@ -532,7 +532,7 @@ button:hover {
   }
 
   .photoWork img {
-    width: 350px
+    width: 320px
   }
 
   footer {
@@ -726,7 +726,14 @@ button:hover {
   }
 }
 
+@media (max-width : 480px) {
+  .photoWork div {
+    width: 90vw;
+    height: 95vh;
+    margin: 20px;
+  }
 
+}
 
 @media (max-width : 375px) {
   .navMobile {

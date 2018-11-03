@@ -2,4 +2,4 @@
 Website created to learn HTML CSS and JS. 
 
 
-https://czauder.github.io/EnergySolution-Company/
+https://czauder.github.io/EnergySolution-company/

@@ -735,7 +735,7 @@ button:hover {
 
 }
 
-@media (max-width : 375px) {
+@media (max-width : 360px) {
   .navMobile {
     height: 210px;
     transition: .2 linear;
@@ -812,7 +812,7 @@ button:hover {
 
   .photoWork div {
     width: 90vw;
-    height: 80vh;
+    height: 120vh;
     margin: 20px;
   }
 
@@ -964,7 +964,7 @@ button:hover {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 330px) {
 
   /* II  */
 
@@ -985,7 +985,7 @@ button:hover {
 
   .photoWork div {
     width: 90vw;
-    height: 100vh;
+    height: 130vh;
   }
 
   .photoWork img {

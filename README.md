@@ -1,5 +1,12 @@
-<h1>EnergySolution-Company</h1>
-Website created to learn HTML CSS and JS. 
+## EnergySolution-Company
 
+Website for fake company.
 
-https://czauder.github.io/EnergySolution-Company/
+## Technologies
+
+* HTML 
+* CSS
+* JavaScript
+
+### Demo
+[https://czauder.github.io/EnergySolution-Company/]
